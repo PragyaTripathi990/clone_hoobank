@@ -1,0 +1,586 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 1.2rem 5rem; */
+    /* margin: 2rem; */
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+}
+
+.logo img {
+    height: 2rem;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 1.5rem;
+
+}
+
+.nav-links ul li {
+    /* but why create seperately?  */
+    margin-left: 35px;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: 550;
+    color: white;
+}
+
+.span {
+    color: aliceblue;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    color: white;
+    /* justify-content: space-evenly; */
+    /* font-weight: 200; */
+    border: 2px;
+    border-style: dashed;
+    border-color: transparent;
+    width: max-content;
+    padding: 6px;
+    background-color: rgb(32, 32, 32);
+    font-family: sans-serif;
+    border-radius: 0.5rem;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    font-size: larger;
+    gap: 5px;
+}
+
+.bar span {
+    /*not working */
+    font-weight: 200 !important;
+    padding: 2px;
+}
+
+.bar img {
+    background-color: transparent;
+}
+
+.header-left img {
+    position: relative;
+    top: 60px;
+    left: 800px;
+    height: 700px;
+    width: 700px;
+    background: radial-gradient(rgba(128, 128, 128, 0.341) 50%, transparent, transparent);
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.content {
+    display: flex;
+
+}
+
+.header-right h1 {
+    color: white;
+    /* font-weight: bolder; */
+    font-size: 70px;
+    position: absolute;
+    left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+
+
+}
+
+.header-right p {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    position: absolute;
+    top: 620px;
+    left: 100px;
+    color: gray;
+}
+
+.grid-container {
+    display: grid;
+    color: aliceblue;
+    gap: 170px;
+    display: flex;
+    font-size: xx-large;
+    padding-top: 100px;
+    /* padding-left:40px;
+  padding-right:40px; */
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+}
+
+
+
+.grid-container>div {
+    color: white;
+}
+
+.nos {
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.quality {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 160px;
+    /* padding-left: 90px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+}
+
+.quality-left h1 {
+    padding-right: 10px !important;
+}
+
+.comb {
+    display: flex;
+
+}
+
+.comb img {
+    height: 20px;
+
+
+}
+
+.point2 {
+    border-color: transparent;
+    border-style: double;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.point1 {
+    border-color: transparent;
+    border-style: double;
+    padding-top: 15px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+.point3 {
+    border-color: transparent;
+    border-style: double;
+    padding-top: 15px;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+
+
+.point1:hover {
+    background: linear-gradient(-168.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+}
+
+.point2:hover {
+    background: linear-gradient(-168.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+}
+
+.point3:hover {
+    background: linear-gradient(-168.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+}
+
+.comb h2 {
+    padding-left: 10px;
+}
+
+.quality-right p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.quality-left h1 {
+    font-size: 50px;
+
+
+}
+
+.quality {
+    margin-right: 180px !important;
+}
+
+.quality-left p {
+    font-size: 22px;
+    padding-top: 40px;
+    font-weight: lighter;
+    color: gray;
+
+}
+
+.get-started-button {
+    height: 50px;
+    padding: 0 20px;
+    font-size: 1.05rem;
+    background-image: linear-gradient(157.81deg, #def9fa -43.27%, #bef3f5 -21.24%, #9dedf0 12.19%, #7de7eb 29.82%, #5ce1e6 51.94%, #33bbcf 90.29%);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* margin-top: 40px;  */
+}
+
+.quality button {
+    margin-top: 40px;
+}
+
+.get-started-button:hover {
+    background-color: rgb(169, 225, 225);
+    /* Darker shade on hover */
+}
+
+.quality-right ul {
+
+    color: brown;
+
+}
+
+.quality-right li {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.quality-right h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quality-right p {
+    color: gray;
+}
+
+.transaction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.about h1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px !important;
+    font-weight: 600;
+}
+
+.about p {
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    font-size: larger !important;
+    font-weight: lighter;
+}
+
+.payimg img {
+    width: 45rem;
+    margin-top: 80px;
+
+    margin-right: 100px !important;
+}
+
+.app {
+    padding-top: 50px;
+}
+
+.cardimg img {
+    width: 40rem;
+    margin-top: 80px;
+    padding-left: 110px;
+    /* margin-left: 10px !important; */
+}
+
+.cardDeal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+}
+
+.cardData {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+}
+
+.cardData h1 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px !important;
+    font-weight: 600;
+}
+
+.cardData p {
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin-top: 30px; */
+    font-size: larger !important;
+    font-weight: lighter;
+}
+
+.cardDeal:nth-child(even) {
+    flex-direction: row-reverse;
+
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+.reviewh1 h2 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600 !important;
+    padding-right: 340px;
+    padding-top: 150px;
+}
+
+.review2 p {
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 180px;
+    font-size: larger !important;
+    font-weight: lighter;
+    margin-right: 150px !important;
+    font-size: 25px;
+
+
+
+
+
+}
+
+.grid-container-review {
+    display: grid;
+    color: aliceblue;
+    gap: 80px;
+    display: flex;
+    font-size: x-large;
+    padding-top: 200px;
+    /* padding-left:40px;
+  padding-right:40px; */
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 120px;
+
+}
+
+.grid-container-review .grid-item {
+
+    border: 2px transparent;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    height: 400px;
+    padding-top: 60px;
+
+}
+
+.grid-container-review .grid-item:hover {
+    background-color: grey;
+}
+
+.merge {
+    display: flex;
+}
+
+.topics {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 18px;
+}
+
+.grid-item:hover {
+    background: linear-gradient(-168.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+}
+
+.eximg {
+    margin-bottom: 50px;
+}
+
+.logoss {
+    display: flex;
+    gap: 200px;
+    padding-left: 90px;
+    padding-top: 140px;
+
+
+}
+
+.logoss img {
+    height: 2.5rem;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+    padding: 40px;
+    border-left: 20px;
+    border-right: 20px;
+    margin: 100px;
+    background: linear-gradient(-168.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
+    border-radius: 20px;
+}
+
+.bannerText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 10px;
+
+}
+
+.bannerText h1 {
+    color: white;
+    font-size: 50px !important;
+    font-weight: 600;
+}
+
+.bannerText p {
+    color: grey;
+    font-size: larger !important;
+    font-weight: lighter;
+    margin-top: 10px;
+
+
+}
+
+.magic {
+    color: transparent;
+    background-image: linear-gradient(157.81deg, #def9fa -43.27%, #bef3f5 -21.24%, #9dedf0 12.19%, #7de7eb 29.82%, #5ce1e6 51.94%, #33bbcf 90.29%);
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQQ6xVzfaFHiE5npdkjBw_sxFEXppwWRYBWg&s"); */
+    /* background-size: cover; */
+    /* background-position-y: 20%; */
+    background-clip: text;
+}
+
+.footerlists {
+    color: white;
+    display: flex;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.new img {
+    height: 50px;
+    margin-left: 100px;
+}
+
+.new p {
+    margin-left: 100px;
+    margin-top: 20px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px !important;
+}
+
+.footerlists {
+    gap: 220px;
+}
+
+.bold {
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white !important;
+}
+
+.footerlists li {
+    line-height: 35px;
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footerlists li:hover {
+    color: #33bbcf;
+}
+
+hr {
+    margin-top: 40px;
+    font-weight: lighter;
+
+}
+
+.theEnd h4 {
+    color: white;
+    font-weight: lighter;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.theEnd {
+    display: flex;
+    gap: 1000px;
+
+
+
+}
+
+.theEnd img {
+    margin-top: 20px;
+
+
+}
